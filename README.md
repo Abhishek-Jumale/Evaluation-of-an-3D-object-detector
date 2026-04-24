@@ -142,6 +142,9 @@ Update `BASE_PATH` to point to your KITTI dataset location.
 - **Top**: Depth map with rainbow color coding (red=close, blue=far)
 - **Bottom**: Car-only LiDAR points projected on RGB image
 
+**Example Projection (006227):**
+![Projection Image Example](Projection_images/006227_projection.png)
+
 ### 3. BEV Plots (`car_detections/`)
 - All LiDAR points (gray)
 - Detected car clusters (colored, with bounding rectangles)
