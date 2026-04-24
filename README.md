@@ -126,7 +126,7 @@ Update `BASE_PATH` to point to your KITTI dataset location.
 
 - `Output/` - Annotated images and AP curve
 - `Projection_images/` - Depth maps and LiDAR projections
-- `car_detections/` - BEV plots
+- `car_detections_BEV/` - BEV plots
 
 ## 📈 Outputs
 
@@ -145,11 +145,14 @@ Update `BASE_PATH` to point to your KITTI dataset location.
 **Example Projection (006227):**
 ![Projection Image Example](Projection_images/006227_projection.png)
 
-### 3. BEV Plots (`car_detections/`)
+### 3. BEV Plots (`car_detections_BEV/`)
 - All LiDAR points (gray)
 - Detected car clusters (colored, with bounding rectangles)
 - Ground truth 3D boxes (red wireframes)
 - LiDAR origin marker
+
+**Example BEV (006227):**
+![BEV Example](car_detections_BEV/006227_bev.png)
 
 ### 4. Evaluation Metrics
 - Average Precision (AP) for IoU thresholds 0.50 to 0.95
