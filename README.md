@@ -135,6 +135,9 @@ Update `BASE_PATH` to point to your KITTI dataset location.
 - YOLO detections (green)
 - Confidence scores and IoU metrics
 
+**Example Output (006227):**
+![Annotated Image Example](Output/006227_annotated.png)
+
 ### 2. Projection Images (`Projection_images/`)
 - **Top**: Depth map with rainbow color coding (red=close, blue=far)
 - **Bottom**: Car-only LiDAR points projected on RGB image
