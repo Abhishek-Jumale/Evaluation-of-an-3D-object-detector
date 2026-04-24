@@ -161,6 +161,10 @@ Update `BASE_PATH` to point to your KITTI dataset location.
 
 The system computes AP across multiple IoU thresholds:
 
+**AP vs IoU Threshold Curve:**
+![AP vs IoU Graph](Output/AP_vs_IoU.png)
+
+Example results:
 ```
 AP@0.50: 0.723
 AP@0.55: 0.689
